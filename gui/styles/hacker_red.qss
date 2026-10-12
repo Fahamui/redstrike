@@ -1,0 +1,68 @@
+/* Hacker Red Tema - Siyah & Kırmızı */
+QWidget {
+    background-color: #0b0b0b;
+    color: #ff3333;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 10pt;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #121212;
+    border: 1px solid #4d0000;
+    border-radius: 3px;
+    padding: 6px;
+    color: #ff6666;
+    selection-background-color: #800000;
+    selection-color: #ffffff;
+}
+
+QPushButton {
+    background-color: #800000;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    padding: 6px 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #b30000;
+    border: 1px solid #ff3333;
+}
+
+QPushButton:pressed {
+    background-color: #4d0000;
+}
+
+QTableWidget {
+    background-color: #0f0f0f;
+    alternate-background-color: #141414;
+    gridline-color: #330000;
+    border: 1px solid #4d0000;
+    selection-background-color: #660000;
+}
+
+QHeaderView::section {
+    background-color: #1a0000;
+    color: #ff4d4d;
+    padding: 6px;
+    border: 1px solid #4d0000;
+}
+
+QTabWidget::pane {
+    border: 1px solid #4d0000;
+    background-color: #0b0b0b;
+}
+
+QTabBar::tab {
+    background-color: #160000;
+    color: #ff6666;
+    padding: 8px 16px;
+    border: 1px solid #4d0000;
+    border-bottom: none;
+}
+
+QTabBar::tab:selected {
+    background-color: #800000;
+    color: #ffffff;
+}

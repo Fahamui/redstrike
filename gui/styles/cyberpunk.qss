@@ -1,0 +1,69 @@
+/* Cyberpunk Tema - Mor & Neon Sarı */
+QWidget {
+    background-color: #120d1a;
+    color: #ffb86c;
+    font-family: 'Consolas', 'Segoe UI', sans-serif;
+    font-size: 10pt;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #1a1226;
+    border: 1px solid #bd93f9;
+    border-radius: 4px;
+    padding: 6px;
+    color: #f8f8f2;
+    selection-background-color: #ff79c6;
+    selection-color: #120d1a;
+}
+
+QPushButton {
+    background-color: #bd93f9;
+    color: #120d1a;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #ff79c6;
+}
+
+QPushButton:pressed {
+    background-color: #6272a4;
+}
+
+QTableWidget {
+    background-color: #151021;
+    alternate-background-color: #1a1226;
+    gridline-color: #44475a;
+    border: 1px solid #bd93f9;
+    selection-background-color: #ff79c6;
+    selection-color: #120d1a;
+}
+
+QHeaderView::section {
+    background-color: #282a36;
+    color: #ffb86c;
+    padding: 6px;
+    border: 1px solid #bd93f9;
+}
+
+QTabWidget::pane {
+    border: 1px solid #bd93f9;
+    background-color: #120d1a;
+}
+
+QTabBar::tab {
+    background-color: #1a1226;
+    color: #6272a4;
+    padding: 8px 16px;
+    border: 1px solid #bd93f9;
+    border-bottom: none;
+}
+
+QTabBar::tab:selected {
+    background-color: #bd93f9;
+    color: #120d1a;
+    font-weight: bold;
+}

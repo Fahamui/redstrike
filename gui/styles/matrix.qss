@@ -1,0 +1,71 @@
+/* Matrix Tema - Siyah & Neon Yeşil */
+QWidget {
+    background-color: #0d0d0d;
+    color: #00ff66;
+    font-family: 'Consolas', monospace;
+    font-size: 10pt;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #141414;
+    border: 1px solid #003311;
+    border-radius: 2px;
+    padding: 6px;
+    color: #00ffcc;
+    selection-background-color: #00ff66;
+    selection-color: #0d0d0d;
+}
+
+QPushButton {
+    background-color: #003311;
+    color: #00ff66;
+    border: 1px solid #00ff66;
+    border-radius: 2px;
+    padding: 6px 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #00ff66;
+    color: #0d0d0d;
+}
+
+QPushButton:pressed {
+    background-color: #001a05;
+}
+
+QTableWidget {
+    background-color: #0a0a0a;
+    alternate-background-color: #111111;
+    gridline-color: #002200;
+    border: 1px solid #003311;
+    selection-background-color: #00ff66;
+    selection-color: #0d0d0d;
+}
+
+QHeaderView::section {
+    background-color: #001a05;
+    color: #00ff66;
+    padding: 6px;
+    border: 1px solid #003311;
+}
+
+QTabWidget::pane {
+    border: 1px solid #003311;
+    background-color: #0d0d0d;
+}
+
+QTabBar::tab {
+    background-color: #111111;
+    color: #00aa44;
+    padding: 8px 16px;
+    border: 1px solid #003311;
+    border-bottom: none;
+}
+
+QTabBar::tab:selected {
+    background-color: #003311;
+    color: #00ff66;
+    font-weight: bold;
+    border-top: 2px solid #00ff66;
+}
